@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KP - Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylemobile.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body class="contact-page">
+    <div class="main">
+        <div class="navbar">
+            <img src="Images/logo.png" class="logo">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="skills.html">SKILLS</a></li>
+                <li><a href="myworks.html">MY WORKS</a></li>
+                <li><a href="contact.html" class="active">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <div class="contact-container">
+            <h1>Get In <span>Touch</span></h1>
+            <p class="subtitle">Feel free to reach out for collaborations, opportunities, or just to say hello!</p>
+            
+            <div class="contact-content">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2><ion-icon name="mail-outline"></ion-icon> Contact Information</h2>
+                    
+                    <div class="info-item">
+                        <ion-icon name="mail"></ion-icon>
+                        <div>
+                            <h3>Email</h3>
+                            <p>karlpalomo9@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <ion-icon name="school"></ion-icon>
+                        <div>
+                            <h3>University</h3>
+                            <p>Caraga State University (CSU Main)</p>
+                            <p class="info-sub">Computer Science Freshman</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <ion-icon name="location"></ion-icon>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Butuan City, Philippines</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <ion-icon name="time"></ion-icon>
+                        <div>
+                            <h3>Response Time</h3>
+                            <p>Usually within 24 hours</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h3>Connect With Me</h3>
+                        <div class="social-icons">
+                            <a href="https://web.facebook.com/palomokarlcedric" target="_blank">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                            <a href="https://www.instagram.com/kouhaiko?igsh=bXloZnE2cHMyOXY3" target="_blank">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                            <a href="https://github.com/KouhaiKo" target="_blank">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2><ion-icon name="send-outline"></ion-icon> Send a Message</h2>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <ion-icon name="paper-plane"></ion-icon>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Alternative Contact -->
+            <div class="alternative-contact">
+                <h2>Other Ways to Reach Me</h2>
+                <div class="alt-options">
+                    <div class="alt-option">
+                        <ion-icon name="logo-discord"></ion-icon>
+                        <h3>Discord</h3>
+                        <p>Kouhai#1261</p>
+                    </div>
+                    
+                    <div class="alt-option">
+                        <ion-icon name="logo-slack"></ion-icon>
+                        <h3>University Email</h3>
+                        <p>karl.palomo@carsu.edu.ph</p>
+                    </div>
+                    
+                    <div class="alt-option">
+                        <ion-icon name="call"></ion-icon>
+                        <h3>Phone</h3>
+                        <p>(+63) 241 523 5342</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

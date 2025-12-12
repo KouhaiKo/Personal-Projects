@@ -1,0 +1,201 @@
+/* ===== MOBILE DEVICES ===== */
+
+/* For tablets and smaller (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    /* Navigation */
+    .navbar {
+        width: 90%;
+        padding: 10px 0;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .navbar .logo {
+        width: 80px;
+        height: 80px;
+        margin: 10px auto;
+    }
+    
+    ul {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 0;
+    }
+    
+    ul li {
+        display: inline-block;
+        padding: 5px 10px;
+    }
+    
+    /* Info Section */
+    .info {
+        margin: 20% auto 0 auto;
+        text-align: center;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .info h1 {
+        font-size: 40px;
+    }
+    
+    .info h3 {
+        font-size: 16px;
+    }
+    
+    /* Image Fix */
+    .image {
+        position: relative !important;
+        width: 50% !important;
+        height: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        margin: 30px auto !important;
+        display: block !important;
+        order: 2;
+    }
+    
+    .image img {
+        height: auto !important;
+        width: 100% !important;
+        max-height: 300px !important;
+        outline: none !important;
+        margin: 0 auto !important;
+        display: block !important;
+    }
+    
+    /* Icons */
+    .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        margin: 20px auto 40px auto;
+        padding: 10px 0;
+        width: 100%;
+        order: 3;
+    }
+    
+    .icons a {
+        display: inline-block;
+        text-decoration: none;
+    }
+    
+    .icons ion-icon {
+        color: black;
+        font-size: 28px;
+        transition: all 0.3s ease;
+    }
+    
+    .info a[href="about.html"] {
+        margin-bottom: 20px;
+    }
+}
+
+/* For phones (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .main {
+        background-position: left;
+    }
+    
+    .info {
+        margin-top: 15%;
+    }
+    
+    .info h1 {
+        font-size: 32px;
+    }
+    
+    .info h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .info a {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    
+    ul {
+        gap: 8px;
+    }
+    
+    ul li {
+        padding: 4px 8px;
+    }
+    
+    ul li a {
+        font-size: 14px;
+    }
+    
+    .image {
+        width: 85% !important;
+        margin: 25px auto !important;
+    }
+    
+    .image img {
+        max-height: 250px !important;
+    }
+    
+    .icons {
+        gap: 20px;
+        margin: 15px auto 30px auto;
+    }
+    
+    .icons ion-icon {
+        font-size: 26px;
+    }
+}
+
+/* For very small phones (max-width: 360px) */
+@media screen and (max-width: 360px) {
+    .info h1 {
+        font-size: 28px;
+    }
+    
+    .info h3 {
+        font-size: 13px;
+    }
+    
+    ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    ul li {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .image {
+        width: 90% !important;
+    }
+    
+    .icons {
+        gap: 15px;
+    }
+    
+    .icons ion-icon {
+        font-size: 24px;
+    }
+}
+
+/* Touch Device Optimizations */
+@media (hover: none) and (pointer: coarse) {
+    .icons ion-icon:hover {
+        transform: none;
+    }
+    
+    .icons ion-icon {
+        min-width: 44px;
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
